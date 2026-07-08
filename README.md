@@ -1,3 +1,4 @@
+[customers_list.pdf](https://github.com/user-attachments/files/29814047/customers_list.pdf)
 # Teste Técnico – Desenvolvedor(a) Full Stack (Laravel + Vue.js ou React + IA)
 
 ## Objetivo
