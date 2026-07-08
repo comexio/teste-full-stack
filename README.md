@@ -1,4 +1,3 @@
-[customers_list.pdf](https://github.com/user-attachments/files/29814047/customers_list.pdf)
 # Teste Técnico – Desenvolvedor(a) Full Stack (Laravel + Vue.js ou React + IA)
 
 ## Objetivo
@@ -214,4 +213,6 @@ Caso alguma funcionalidade não seja concluída, explique no README como faria s
 - Não é obrigatório utilizar um provedor específico de IA.
 - O objetivo não é avaliar conhecimento prévio sobre um serviço específico, mas sim a capacidade de integrar uma API externa e estruturar uma solução.
 - É permitido utilizar SDKs oficiais ou bibliotecas disponibilizadas pelos provedores de IA.
-- O documento PDF disponibilizado contém dados totalmente fictícios e deve ser utilizado exclusivamente para fins de avaliação técnica.
+- O documento PDF disponibilizado abaixo contém dados totalmente fictícios e deve ser utilizado exclusivamente para fins de avaliação técnica.
+
+[customers_list.pdf](https://github.com/user-attachments/files/29814047/customers_list.pdf)
