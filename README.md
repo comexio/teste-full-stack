@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Este desafio tem como objetivo avaliar sua capacidade de desenvolver uma aplicação Full Stack integrando uma API de Inteligência Artificial para extração estruturada de dados a partir de um documento PDF.
+Este desafio tem como objetivo avaliar sua capacidade de desenvolver uma aplicação Full Stack integrando uma API de Inteligência Artificial para extração estruturada de dados a partir de um documento PDF. A persistência dos dados poderá ser realizada utilizando PostgreSQL (preferencialmente) ou MySQL.
 
 Serão avaliados principalmente:
 
@@ -23,7 +23,7 @@ Sua equipe precisa automatizar a importação de clientes recebidos em formato P
 
 Desenvolva uma aplicação capaz de receber um arquivo PDF contendo uma lista de clientes e utilizar um modelo de Inteligência Artificial para extrair as informações presentes no documento.
 
-Após a extração, os clientes deverão ser persistidos em um banco PostgreSQL.
+Após a extração, os clientes deverão ser persistidos em um banco de dados relacional. O candidato poderá optar por PostgreSQL (preferencialmente) ou MySQL.
 
 O PDF será utilizado apenas durante o processamento da importação, não sendo necessário armazená-lo.
 
@@ -35,7 +35,7 @@ O PDF será utilizado apenas durante o processamento da importação, não sendo
 
 - PHP 8+
 - Laravel 10+
-- PostgreSQL
+- PostgreSQL (preferencialmente) ou MySQL
 
 ## Processamento
 
@@ -53,6 +53,12 @@ O PDF será utilizado apenas durante o processamento da importação, não sendo
 A chave da API deverá ser configurada por variável de ambiente.
 
 A aplicação deverá tratar timeout, erros de comunicação, respostas inválidas e falhas durante a persistência.
+
+### Regra de Desenvolvimento
+
+- **Não é permitida a utilização de expressões regulares (Regex) para realizar a extração dos dados contidos no PDF.**
+- **É obrigatória a utilização de uma API de Inteligência Artificial para realizar a extração estruturada das informações presentes no documento.**
+- Regex poderá ser utilizada apenas para validações ou formatações complementares após o retorno da IA, não para identificar ou extrair os dados do documento.
 
 ---
 
@@ -137,7 +143,7 @@ Disponibilizar um ambiente Docker contendo:
 
 - Backend
 - Frontend
-- PostgreSQL
+- PostgreSQL (preferencialmente) ou MySQL
 
 Utilizar `docker-compose.yml`.
 
@@ -213,6 +219,4 @@ Caso alguma funcionalidade não seja concluída, explique no README como faria s
 - Não é obrigatório utilizar um provedor específico de IA.
 - O objetivo não é avaliar conhecimento prévio sobre um serviço específico, mas sim a capacidade de integrar uma API externa e estruturar uma solução.
 - É permitido utilizar SDKs oficiais ou bibliotecas disponibilizadas pelos provedores de IA.
-- O documento PDF disponibilizado abaixo contém dados totalmente fictícios e deve ser utilizado exclusivamente para fins de avaliação técnica.
-
-[customers_list.pdf](https://github.com/user-attachments/files/29814047/customers_list.pdf)
+- O documento PDF disponibilizado contém dados totalmente fictícios e deve ser utilizado exclusivamente para fins de avaliação técnica.
