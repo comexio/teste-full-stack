@@ -220,3 +220,8 @@ Caso alguma funcionalidade não seja concluída, explique no README como faria s
 - O objetivo não é avaliar conhecimento prévio sobre um serviço específico, mas sim a capacidade de integrar uma API externa e estruturar uma solução.
 - É permitido utilizar SDKs oficiais ou bibliotecas disponibilizadas pelos provedores de IA.
 - O documento PDF disponibilizado contém dados totalmente fictícios e deve ser utilizado exclusivamente para fins de avaliação técnica.
+
+# Entrega
+
+- Deve ser entregue um arquivo .zip do projeto ou o link para um repositório **público**, caso o projeto seja versionado no Git.
+
